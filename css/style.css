@@ -54,4 +54,9 @@ nav a:hover {
   height: 20px;
   margin-top: -1rem;
   margin-right: auto;
+  padding: 0 2rem;
+}
+
+.wrapper {
+  padding: 0 2rem;
 }
