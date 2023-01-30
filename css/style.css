@@ -2,6 +2,9 @@
 
 :root {
   box-sizing: border-box;
+  --color-blue: #0065fc;
+  --color-lightblue: #deebff;
+  --color-grey: #f2f2f2;
 }
 *,
 *::before,
@@ -19,20 +22,69 @@
   font-family: "Raleway", sans-serif;
 }
 
-/* nav-menu */
-nav {
-  border: 1px solid red;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-nav a {
-  color: black;
+a {
   text-decoration: none;
-  padding: 2rem;
+  color: inherit;
 }
 
-#logo-booki {
-  margin-right: auto;
+#wrapper {
+  width: 1400px;
+  margin: auto;
+}
+
+/* nav-menu */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  height: 20px;
+  margin-top: 1rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-menu li {
+  margin: 0 0 0 50px;
+  text-align: center;
+  border-top: 1px solid transparent;
+}
+
+.nav-menu li:hover {
+  color: var(--color-blue);
+  border-top: 1px solid var(--color-blue);
+}
+
+/*  Responsive for desktop version*/
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+  #wrapper {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+/*  Responsive for tab version*/
+@media all and (min-width: 768px) and (max-width: 992px) {
+  #wrapper {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  #wrapper {
+    width: auto;
+    margin: 0 auto;
+  }
 }
