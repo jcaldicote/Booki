@@ -30,7 +30,8 @@ body {
 }
 
 body h1,
-p {
+p,
+.searchMenu {
   margin-bottom: 1rem;
 }
 
@@ -66,29 +67,29 @@ nav a:hover {
 
 /* search menu */
 
-.search-menu {
+.searchMenu {
   display: flex;
 }
 
-.search-menu > *,
-.search-menu input::placeholder {
+.searchMenu > *,
+.searchMenu input::placeholder {
   padding: 1rem;
   font-weight: bold;
   color: black;
   font-size: 1rem;
 }
 
-.search-menu i {
+.searchMenu i {
   background-color: var(--color-grey);
   border-radius: 1rem 0 0 1rem;
 }
 
-.search-menu input {
+.searchMenu input {
   border: 1px solid var(--color-grey);
   flex-basis: 16rem;
 }
 
-.search-menu button {
+.searchMenu button {
   background-color: var(--color-blue);
   color: white;
   border: 1px solid transparent;
@@ -97,10 +98,38 @@ nav a:hover {
   transition: transform 0.2ms;
 }
 
-.search-menu button:hover {
+.searchMenu button:hover {
   background-color: var(--color-grey);
   color: var(--color-blue);
   border-color: var(--color-blue);
   opacity: 0.8;
+  transform: scale(1.03);
+}
+
+.globalFilter {
+  display: flex;
+  align-items: center;
+}
+
+.filter {
+  border: 1px solid var(--color-grey);
+  margin: 0 1rem;
+  padding: 0.8rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.filter i {
+  color: var(--color-blue);
+}
+.filter span {
+  font-weight: bold;
+  margin: 0 1rem;
+  transition: transform all 0.2s ease;
+}
+
+.filter:hover {
+  background-color: var(--color-lightblue);
+  box-shadow: 0 0 0.3rem blue;
   transform: scale(1.03);
 }
