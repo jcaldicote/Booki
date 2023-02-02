@@ -63,8 +63,12 @@ nav a:hover {
   height: 20px;
   margin-top: -1rem;
   margin-right: auto;
+  cursor: pointer;
 }
 
+.logo:hover {
+  transform: scale(1.03);
+}
 /* search menu */
 
 .searchMenu {
@@ -155,9 +159,6 @@ nav a:hover {
 }
 
 /* Footer */
-/* footer {
-  background-color: var(--color-grey);
-} */
 
 .globalFooter {
   display: flex;
