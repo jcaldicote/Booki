@@ -95,7 +95,7 @@ nav a:hover {
   border: 1px solid transparent;
   border-radius: 0 1rem 1rem 0;
   cursor: pointer;
-  transition: transform 0.2ms;
+  transition-duration: 0.2s;
 }
 
 .searchMenu button:hover {
@@ -118,7 +118,7 @@ nav a:hover {
   padding: 0.8rem;
   border-radius: 2rem;
   cursor: pointer;
-  transition: transform all 0.2ms ease;
+  transition-duration: 0.2s;
 }
 
 .filter i {
@@ -151,5 +151,24 @@ nav a:hover {
   border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+/* Footer */
+/* footer {
+  background-color: var(--color-grey);
+} */
+
+.globalFooter {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--color-grey);
+}
+
+.globalFooterSub {
+  padding: 2rem 3rem;
+}
+
+.globalFooterSub a:hover {
+  text-decoration: underline;
 }
