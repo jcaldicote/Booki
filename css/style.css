@@ -117,6 +117,7 @@ nav a:hover {
   padding: 0.8rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition: transform all 0.2ms ease;
 }
 
 .filter i {
@@ -125,7 +126,6 @@ nav a:hover {
 .filter span {
   font-weight: bold;
   margin: 0 1rem;
-  transition: transform all 0.2s ease;
 }
 
 .filter:hover {
