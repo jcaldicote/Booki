@@ -109,6 +109,7 @@ nav a:hover {
 .globalFilter {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .filter {
@@ -132,4 +133,23 @@ nav a:hover {
   background-color: var(--color-lightblue);
   box-shadow: 0 0 0.3rem blue;
   transform: scale(1.03);
+}
+
+/* Filter-info */
+
+.filterInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filterInfo i {
+  color: var(--color-blue);
+  border: 1px solid var(--color-grey);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
