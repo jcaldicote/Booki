@@ -35,6 +35,9 @@ p,
   margin-bottom: 1rem;
 }
 
+footer {
+  margin-top: 1rem;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -264,6 +267,17 @@ nav a:hover {
 
 .popularCardInfo .starCard {
   margin-top: auto;
+}
+
+/* ***Activity*** */
+.activityList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.activityCard {
+  border: solid 1px red;
 }
 /* ***Footer*** */
 
