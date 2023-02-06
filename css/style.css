@@ -158,6 +158,88 @@ nav a:hover {
   justify-content: space-evenly;
 }
 
+/* ***Apartments List** */
+
+.apartmentList {
+  display: flex;
+  gap: 1rem;
+}
+
+.apartmentList > div {
+  border: 1px solid red;
+  background-color: var(--color-grey);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.cityApartmentList {
+  flex-basis: 66%;
+}
+
+.cityApartmentList a {
+  font-weight: bold;
+}
+
+.popularApartmentList {
+  flex-basis: 33%;
+}
+
+/* ***City apartment*** */
+.cityApartment {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.cityApartment > div {
+  flex-basis: 25%;
+}
+
+/* ***Popular Apartment*** */
+
+.popularApartment {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.popularApartment > div {
+  border: 1px solid blue;
+}
+
+/* ***Apartment Card */
+
+.apartmentCard {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
+.apartmentCard img {
+  height: 12rem;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+
+.apartmentCard h3,
+.apartmentCard p {
+  margin: 0.2rem;
+}
+
+.starCardBlue {
+  color: var(--color-blue);
+}
+
+.starCardGrey {
+  color: var(--color-grey);
+}
+
 /* ***Footer*** */
 
 .globalFooter {
