@@ -226,6 +226,7 @@ nav a:hover {
   padding: 5px;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   flex-grow: 1;
+  transition-duration: 0.2s;
 }
 
 .apartmentCard img {
@@ -255,7 +256,17 @@ nav a:hover {
   width: 16px;
 }
 
+.apartmentCard:hover {
+  background-color: var(--color-lightblue);
+  box-shadow: 0 0 0.3rem blue;
+  transform: scale(1.03);
+}
+
 /* ***Popular Card */
+.popularApartmentList h2 {
+  display: flex;
+  justify-content: space-between;
+}
 
 .popularCard {
   display: flex;
@@ -264,6 +275,7 @@ nav a:hover {
   padding: 5px;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   flex-grow: 1;
+  transition-duration: 0.2s;
 }
 
 .popularCard img {
@@ -284,6 +296,12 @@ nav a:hover {
   margin-top: auto;
 }
 
+.popularCard:hover {
+  background-color: var(--color-lightblue);
+  box-shadow: 0 0 0.3rem blue;
+  transform: scale(1.03);
+}
+
 /* ***Activity*** */
 .activityList {
   display: flex;
@@ -298,6 +316,7 @@ nav a:hover {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   width: 302px;
   height: 445px;
+  transition-duration: 0.2s;
 }
 
 .activityCard img {
@@ -311,12 +330,19 @@ nav a:hover {
 .activityCard h3 {
   margin: 20px;
 }
+
+.activityCard:hover {
+  background-color: var(--color-lightblue);
+  box-shadow: 0 0 0.3rem blue;
+  transform: scale(1.03);
+}
 /* ***Footer*** */
 
 .globalFooter {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--color-grey);
+  gap: 10rem;
 }
 
 .globalFooterSub a {
