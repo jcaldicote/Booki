@@ -158,7 +158,7 @@ nav a:hover {
   transform: scale(1.03);
 }
 
-/* ***Filter-info*** */
+/* ***Filter Results*** */
 
 .filterInfo {
   display: flex;
@@ -389,6 +389,15 @@ nav a:hover {
   .filter span {
     margin: 0 2px;
     font-size: 14px;
+  }
+
+  .filterInfo i {
+    margin-left: 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 24px;
+    height: 24px;
   }
 
   .apartmentList {
