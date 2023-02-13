@@ -353,10 +353,6 @@ nav a:hover {
   gap: 32px;
 }
 
-.globalFooterSub a {
-  font-size: 16px;
-}
-
 .globalFooterSub {
   padding: 32px 48px;
 }
@@ -372,8 +368,27 @@ nav a:hover {
     width: 768px;
     margin: 0 auto;
   }
+
+  p,
+  a,
+  h3 {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
   .globalFilter {
     flex-wrap: nowrap;
+  }
+
+  .filter {
+    margin: 0 12px;
+  }
+
+  .filter span {
+    margin: 0 2px;
+    font-size: 14px;
   }
 
   .apartmentList {
@@ -381,8 +396,13 @@ nav a:hover {
   }
   .popularApartment {
     flex-direction: row;
+    flex-wrap: nowrap;
   }
   .activityList {
+    flex-wrap: nowrap;
+  }
+
+  .globalFooter {
     flex-wrap: nowrap;
   }
 }
