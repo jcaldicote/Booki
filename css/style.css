@@ -26,17 +26,17 @@
 body {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 16px;
 }
 
 body h1,
 p,
 .searchMenu {
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 footer {
-  margin-top: 1rem;
+  margin-top: 16px;
 }
 a {
   text-decoration: none;
@@ -44,16 +44,18 @@ a {
 }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 
-h1 {
-  font-size: 1.375rem;
+h1,
+h2 {
+  font-size: 22px;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 16px;
 }
+
 /* ***nav-menu*** */
 
 nav {
@@ -64,7 +66,7 @@ nav {
 }
 
 nav a {
-  padding: 2rem;
+  padding: 16px;
   border-top: 2px solid transparent;
 }
 
@@ -83,6 +85,7 @@ nav a:hover {
 .logo:hover {
   transform: scale(1.03);
 }
+
 /* ***search menu*** */
 
 .searchMenu {
@@ -99,7 +102,7 @@ nav a:hover {
 
 .searchMenu i {
   background-color: var(--color-grey);
-  border-radius: 1rem 0 0 1rem;
+  border-radius: 16px 0 0 16px;
 }
 
 .searchMenu input {
@@ -111,7 +114,7 @@ nav a:hover {
   background-color: var(--color-blue);
   color: white;
   border: 1px solid transparent;
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 16px 16px 0;
   cursor: pointer;
   transition-duration: 0.2s;
 }
@@ -124,6 +127,8 @@ nav a:hover {
   transform: scale(1.03);
 }
 
+/* ***Filter Container*** */
+
 .globalFilter {
   display: flex;
   align-items: center;
@@ -132,9 +137,9 @@ nav a:hover {
 
 .filter {
   border: 1px solid var(--color-grey);
-  margin: 0 1rem;
-  padding: 0.8rem;
-  border-radius: 2rem;
+  margin: 0 16px;
+  padding: 12px;
+  border-radius: 32px;
   cursor: pointer;
   transition-duration: 0.2s;
 }
@@ -144,12 +149,12 @@ nav a:hover {
 }
 .filter span {
   font-weight: bold;
-  margin: 0 1rem;
+  margin: 0 16px;
 }
 
 .filter:hover {
   background-color: var(--color-lightblue);
-  box-shadow: 0 0 0.3rem blue;
+  box-shadow: 0 0 4px blue;
   transform: scale(1.03);
 }
 
@@ -158,7 +163,7 @@ nav a:hover {
 .filterInfo {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .filterInfo i {
@@ -176,13 +181,13 @@ nav a:hover {
 
 .apartmentList {
   display: flex;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .apartmentList > div {
   background-color: var(--color-grey);
-  padding: 2rem;
-  border-radius: 1rem;
+  padding: 32px;
+  border-radius: 16px;
 }
 
 .cityApartmentList {
@@ -198,12 +203,13 @@ nav a:hover {
 }
 
 /* ***City apartment*** */
+
 .cityApartment {
   display: flex;
-  gap: 2rem;
+  gap: 32px;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .cityApartment > div {
@@ -214,17 +220,17 @@ nav a:hover {
 
 .popularApartment {
   display: flex;
-  gap: 1rem;
+  gap: 16px;
   flex-direction: column;
 }
 
-/* ***Apartment Card */
+/* ***Apartment Card*** */
 
 .apartmentCard {
   background-color: white;
   border-radius: 20px;
   padding: 5px;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
   flex-grow: 1;
   transition-duration: 0.2s;
 }
@@ -241,7 +247,7 @@ nav a:hover {
 .apartmentCard p,
 .popularCardInfo h3,
 .popularCardInfo p {
-  margin: 0.5rem;
+  margin: 8px;
 }
 
 .starCardBlue {
@@ -258,11 +264,12 @@ nav a:hover {
 
 .apartmentCard:hover {
   background-color: var(--color-lightblue);
-  box-shadow: 0 0 0.3rem blue;
+  box-shadow: 0 0 4px blue;
   transform: scale(1.03);
 }
 
-/* ***Popular Card */
+/* ***Popular Card*** */
+
 .popularApartmentList h2 {
   display: flex;
   justify-content: space-between;
@@ -273,7 +280,7 @@ nav a:hover {
   background-color: white;
   border-radius: 20px;
   padding: 5px;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
   flex-grow: 1;
   transition-duration: 0.2s;
 }
@@ -298,22 +305,22 @@ nav a:hover {
 
 .popularCard:hover {
   background-color: var(--color-lightblue);
-  box-shadow: 0 0 0.3rem blue;
+  box-shadow: 0 0 4px blue;
   transform: scale(1.03);
 }
 
 /* ***Activity*** */
+
 .activityList {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 16px;
 }
 
 .activityCard {
-  /* border: solid 1px red; */
   border-radius: 20px;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
   width: 302px;
   height: 445px;
   transition-duration: 0.2s;
@@ -333,26 +340,54 @@ nav a:hover {
 
 .activityCard:hover {
   background-color: var(--color-lightblue);
-  box-shadow: 0 0 0.3rem blue;
+  box-shadow: 0 0 4px blue;
   transform: scale(1.03);
 }
+
 /* ***Footer*** */
 
 .globalFooter {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--color-grey);
-  gap: 10rem;
+  gap: 32px;
 }
 
 .globalFooterSub a {
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .globalFooterSub {
-  padding: 2rem 3rem;
+  padding: 32px 48px;
 }
 
 .globalFooterSub a:hover {
   text-decoration: underline;
+}
+
+/* ***RESPONSIVE DESIGN : Tab version*** */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  body {
+    width: 768px;
+    margin: 0 auto;
+  }
+  .globalFilter {
+    flex-wrap: nowrap;
+  }
+
+  .apartmentList {
+    flex-direction: column;
+  }
+  .popularApartment {
+    flex-direction: row;
+  }
+  .activityList {
+    flex-wrap: nowrap;
+  }
+}
+
+/* ***RESPONSIVE : Smartphone version*** */
+
+@media all and (min-width: 320px) and (max-width: 767px) {
 }
