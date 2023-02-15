@@ -58,35 +58,39 @@ p {
 
 /* ***nav-menu*** */
 
-nav {
+header {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-nav a {
-  padding: 16px;
-  border-top: 2px solid transparent;
+.logoBooki {
+  padding-top: 45px;
 }
 
-nav a:hover {
-  color: var(--color-blue);
-  border-top-color: var(--color-blue);
+.logoBooki:hover {
+  transform: scale(1.07);
 }
 
 .logo {
   height: 20px;
-  margin-top: -16px;
-  margin-right: auto;
-  cursor: pointer;
 }
 
-.logo:hover {
-  transform: scale(1.03);
+.subNav {
+  display: flex;
 }
 
-/* ***search menu*** */
+.subNav a {
+  font-weight: 500;
+  width: 200px;
+  text-align: center;
+  padding: 45px 0px;
+  border-top: 3px solid transparent;
+}
+
+.subNav a:hover {
+  color: var(--color-blue);
+  border-top-color: var(--color-blue);
+}
 
 .searchMenu {
   display: flex;
@@ -221,7 +225,7 @@ nav a:hover {
 
 .popularApartment {
   display: flex;
-  gap: 16px;
+  gap: 32px;
   flex-direction: column;
 }
 
@@ -300,8 +304,7 @@ nav a:hover {
   flex-direction: column;
 }
 
-.popularCardInfo .starCard {
-  margin-top: auto;
+.popularCardInfo .popularCardPrice {
 }
 
 .popularCard:hover {
@@ -326,6 +329,7 @@ nav a:hover {
   border-radius: 20px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
   flex-basis: 22%;
+  position: relative;
   transition-duration: 0.2s;
 }
 
