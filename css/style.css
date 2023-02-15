@@ -29,11 +29,11 @@ body {
   padding: 0 16px;
 }
 
-body h1,
+/* body h1,
 p,
 .searchMenu {
   margin-bottom: 16px;
-}
+} */
 
 footer {
   margin-top: 16px;
@@ -45,22 +45,42 @@ a {
 
 h3 {
   font-size: 18px;
+  margin: 0;
 }
 
-h1,
+h1 {
+  font-size: 22px;
+  margin: 0 0 8px 0;
+}
+
 h2 {
   font-size: 22px;
+  margin: 0 0 24px 0;
 }
 
 p {
   font-size: 16px;
+  margin: 0;
 }
 
+.centerTown {
+  margin: 0 0 20px 0;
+}
+
+.filterText {
+  margin: 0;
+  font-size: 18px;
+}
+
+.filter span {
+  font-size: 18px;
+}
 /* ***nav-menu*** */
 
 header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 32px;
 }
 
 .logoBooki {
@@ -83,7 +103,7 @@ header {
   font-weight: 500;
   width: 200px;
   text-align: center;
-  padding: 45px 0px;
+  padding-top: 45px;
   border-top: 3px solid transparent;
 }
 
@@ -94,6 +114,7 @@ header {
 
 .searchMenu {
   display: flex;
+  margin: 0 0 32px 0;
 }
 
 .searchMenu > *,
@@ -137,6 +158,7 @@ header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 0 40px 0;
 }
 
 .filter {
@@ -168,6 +190,7 @@ header {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin: 0 0 40px 0;
 }
 
 .filterInfo i {
@@ -362,8 +385,18 @@ header {
 }
 
 .globalFooterSub {
-  width: 32%;
+  flex-basis: 32%;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.globalFooterSub > * {
+  margin: 8px;
+}
+
+.globalFooterSub a {
+  font-weight: 500;
 }
 
 .globalFooterSub a:hover {
