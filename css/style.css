@@ -424,6 +424,35 @@ header {
 /* ***RESPONSIVE DESIGN : Mobile version*** */
 
 @media screen and (max-width: 768px) {
+  /* nav-menu */
+  header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .logoBooki {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .subNav {
+    justify-content: space-between;
+  }
+
+  .subNav a {
+    flex: auto;
+    /* border: 1px solid crimson; */
+    padding: 20px;
+    border-top: none;
+    border-bottom: 3px solid var(--color-grey);
+  }
+
+  .subNav a:hover {
+    border-bottom-color: var(--color-blue);
+    font-weight: 600;
+  }
   /* For search icon look*/
 
   .searchMenu .searchText {
