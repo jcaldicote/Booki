@@ -221,13 +221,13 @@ header {
 }
 
 .apartmentList > div {
-  background-color: var(--color-grey);
   padding: 32px;
   border-radius: 16px;
 }
 
 .cityApartmentList {
   flex-basis: 66%;
+  background-color: var(--color-grey);
 }
 
 .cityApartmentList a {
@@ -236,6 +236,7 @@ header {
 
 .popularApartmentList {
   flex-basis: 33%;
+  background-color: var(--color-grey);
 }
 
 /* ***City apartment*** */
@@ -453,6 +454,7 @@ header {
     border-bottom-color: var(--color-blue);
     font-weight: 600;
   }
+
   /* For search icon look*/
 
   .searchMenu .searchText {
@@ -465,5 +467,15 @@ header {
 
   .searchMenu input {
     overflow: auto;
+  }
+
+  /* Apartments List >switch popular order */
+
+  .apartmentList {
+    flex-direction: column-reverse;
+  }
+
+  .popularApartmentList {
+    background-color: white;
   }
 }
