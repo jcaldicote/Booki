@@ -24,8 +24,8 @@
       <!-- Nav bar-->
       <nav>
         <div class="subNav">
-          <a href="#">Hébergements</a>
-          <a href="#">Activités</a>
+          <a href="#hosting">Hébergements</a>
+          <a href="#activityLink">Activités</a>
         </div>
       </nav>
     </header>
@@ -39,7 +39,10 @@
       <div class="searchMenu">
         <i class="fas fa-map-marker-alt"> </i>
         <input type="text" placeholder="Marseille, France" />
-        <button>Rechercher</button>
+        <button>
+          <span class="searchText">Rechercher</span>
+          <i class="fas fa-search"></i>
+        </button>
       </div>
 
       <!-- Filters-parts -->
@@ -68,14 +71,16 @@
 
       <!-- search-results -->
       <section class="apartmentList">
-        <div class="cityApartmentList">
+        <div class="cityApartmentList" id="hosting">
           <h2>Hébergements à Marseille</h2>
           <div class="cityApartment">
             <div class="apartmentCard">
-              <img
-                src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                alt="auberge-la-canebiere"
-              />
+              <a href="#">
+                <img
+                  src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                  alt="auberge-la-canebiere"
+                />
+              </a>
               <h3>Auberge La Canebière</h3>
               <p>Nuit à partir de 25<strong>€</strong></p>
               <p>
@@ -87,10 +92,12 @@
               </p>
             </div>
             <div class="apartmentCard">
-              <img
-                src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                alt="hotel-du-port"
-              />
+              <a href="#">
+                <img
+                  src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                  alt="hotel-du-port"
+                />
+              </a>
               <h3>Hôtel du port</h3>
               <p>Nuit à partir de 52<strong>€</strong></p>
               <p>
@@ -102,10 +109,12 @@
               </p>
             </div>
             <div class="apartmentCard">
-              <img
-                src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                alt="hotel-les-mouettes"
-              />
+              <a href="#">
+                <img
+                  src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                  alt="hotel-les-mouettes"
+                />
+              </a>
               <h3>Hôtel Les mouettes</h3>
               <p>Nuit à partir de 76<strong>€</strong></p>
               <p>
@@ -117,10 +126,12 @@
               </p>
             </div>
             <div class="apartmentCard">
-              <img
-                src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-                alt="hotel-de-la-mer"
-              />
+              <a href="#">
+                <img
+                  src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                  alt="hotel-de-la-mer"
+                />
+              </a>
               <h3>Hôtel de la mer</h3>
               <p>Nuit à partir de 46<strong>€</strong></p>
               <p>
@@ -132,10 +143,12 @@
               </p>
             </div>
             <div class="apartmentCard">
-              <img
-                src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                alt="auberge-le-panier"
-              />
+              <a href="#">
+                <img
+                  src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                  alt="auberge-le-panier"
+                />
+              </a>
               <h3>Auberge Le Panier</h3>
               <p>Nuit à partir de 23<strong>€</strong></p>
               <p>
@@ -147,10 +160,12 @@
               </p>
             </div>
             <div class="apartmentCard">
-              <img
-                src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                alt="hotel-chez-amina"
-              />
+              <a href="#">
+                <img
+                  src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                  alt="hotel-chez-amina"
+                />
+              </a>
               <h3>Hôtel Chez Amina</h3>
               <p>Nuit à partir de 96<strong>€</strong></p>
               <p>
@@ -231,7 +246,7 @@
       </section>
       <!-- Activity -->
       <section class="activity">
-        <h2>Activités à Marseille</h2>
+        <h2 id="activityLink">Activités à Marseille</h2>
         <div class="activityList">
           <div class="activityCard">
             <img
