@@ -420,6 +420,14 @@ header {
 /* ***RESPONSIVE DESIGN : Tab version*** */
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+  /* Apartments List */
+
+  .apartmentList {
+    flex-direction: column;
+  }
+  .popularApartment {
+    flex-direction: row;
+  }
 }
 
 /* ***RESPONSIVE DESIGN : Mobile version*** */
