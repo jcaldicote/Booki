@@ -277,14 +277,11 @@ header {
   height: 140px;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
-  object-position: initial;
   width: 100%;
 }
 
 .apartmentCard h3,
-.apartmentCard p,
-.popularCardInfo h3,
-.popularCardInfo p {
+.apartmentCard p {
   margin: 8px;
 }
 
@@ -324,11 +321,10 @@ header {
 }
 
 .popularCard img {
-  height: 128px;
+  height: 136px;
   border-radius: 15px 0 0 15px;
   object-fit: cover;
-  object-position: top;
-  width: 33%;
+  width: 36%;
   margin-right: 16px;
 }
 
@@ -337,7 +333,12 @@ header {
   flex-direction: column;
 }
 
-.popularCardInfo .popularCardPrice {
+.popularCardInfo .popularCardTitle {
+  margin-bottom: 8px;
+}
+
+.popularCardInfo .starCard {
+  margin-top: auto;
 }
 
 .popularCard:hover {
