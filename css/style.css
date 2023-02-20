@@ -244,8 +244,9 @@ header {
 .cityApartment {
   display: flex;
   gap: 32px;
+  width: 100%;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 16px;
 }
 
@@ -485,5 +486,11 @@ header {
 
   .popularApartmentList {
     background-color: white;
+  }
+
+  /* footer */
+
+  .globalFooter {
+    flex-direction: column;
   }
 }
