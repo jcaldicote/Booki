@@ -535,7 +535,9 @@ header {
   }
   .apartmentList > div {
     border-radius: 0;
+    padding: 20px;
   }
+
   .cityApartmentList {
     background-color: white;
   }
