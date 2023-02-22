@@ -510,6 +510,24 @@ header {
     margin: 0 20px 40px 20px;
   }
 
+  .filterTitle {
+    flex-basis: 100%;
+  }
+
+  .filter {
+    padding: 8px;
+  }
+  .filter.One,
+  .filter.Two,
+  .filter.Three,
+  .filter.Four {
+    flex-basis: 47%;
+  }
+  .filter span {
+    font-size: 11px;
+    margin: 0 5px;
+  }
+
   /* Apartments List >switch popular order */
 
   .apartmentList {
