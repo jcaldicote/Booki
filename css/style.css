@@ -262,9 +262,6 @@ header {
   min-width: 240px;
 }
 
-.apartmentCard {
-}
-
 /* ***Popular Apartment*** */
 
 .popularApartment {
@@ -366,7 +363,6 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
-  /* min-height: 460px; */
 }
 
 .activityCard {
@@ -382,7 +378,6 @@ header {
 .activityCard img {
   border-radius: 20px 20px 0 0;
   width: 100%;
-  aspect-ratio: 2;
   aspect-ratio: 0.75;
   object-fit: cover;
 }
@@ -443,12 +438,20 @@ header {
   .popularApartment {
     flex-direction: row;
   }
+
+  .popularCard img {
+    height: auto;
+  }
 }
 
 /* ***RESPONSIVE DESIGN : Mobile version*** */
 
 @media screen and (max-width: 768px) {
   /* nav-menu */
+  body {
+    padding: 0;
+  }
+
   header {
     display: flex;
     flex-direction: column;
@@ -478,8 +481,17 @@ header {
     font-weight: 600;
   }
 
-  /* For search icon look*/
+  .centerTown {
+    margin: 0 20px 20px 20px;
+  }
 
+  h1 {
+    margin: 0 20px 8px 20px;
+  }
+  /* For search icon look*/
+  .searchMenu {
+    margin: 0 22px 32px 22px;
+  }
   .searchMenu .searchText {
     display: none;
   }
@@ -492,17 +504,25 @@ header {
     overflow: auto;
   }
 
+  /*filter */
+  .globalFilter,
+  .filterInfo {
+    margin: 0 20px 40px 20px;
+  }
+
   /* Apartments List >switch popular order */
 
   .apartmentList {
     flex-direction: column-reverse;
   }
-
+  .apartmentList > div {
+    border-radius: 0;
+  }
   .cityApartmentList {
     background-color: white;
   }
 
-  /* footer */
+  /* footer **/
 
   .globalFooter {
     flex-direction: column;
