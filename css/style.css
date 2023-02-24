@@ -545,9 +545,33 @@ header {
     background-color: white;
   }
 
+  /* Activity list */
+
+  #activityLink {
+    margin: 0 0 24px 22px;
+  }
+  .activityList {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
+    align-items: center;
+    padding: 0 22px 0 20px;
+  }
+
+  .activityCard {
+    min-width: 335px;
+    max-width: 335px;
+    flex-basis: 190px;
+  }
+
+  .activityCard img {
+    width: 100%;
+    height: 134px;
+  }
   /* footer **/
 
   .globalFooter {
     flex-direction: column;
+    padding-left: 30px;
   }
 }
