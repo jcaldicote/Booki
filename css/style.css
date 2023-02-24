@@ -378,7 +378,7 @@ header {
 .activityCard img {
   border-radius: 20px 20px 0 0;
   width: 100%;
-  aspect-ratio: 0.75;
+  aspect-ratio: auto;
   object-fit: cover;
 }
 
