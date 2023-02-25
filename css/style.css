@@ -371,7 +371,6 @@ header {
   border-radius: 20px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
   flex-basis: 22%;
-  position: relative;
   transition-duration: 0.2s;
 }
 
@@ -420,6 +419,7 @@ header {
 
 .globalFooterSub a:hover {
   text-decoration: underline;
+  font-weight: 550;
 }
 
 /* ***RESPONSIVE DESIGN : Desktop version*** */
