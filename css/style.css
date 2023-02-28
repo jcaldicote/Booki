@@ -215,7 +215,7 @@ header {
   margin-bottom: 48px;
 }
 
-.apartmentList > div {
+.apartmentList > article {
   padding: 32px;
   border-radius: 16px;
 }
@@ -520,7 +520,7 @@ header {
   .apartmentList {
     flex-direction: column-reverse;
   }
-  .apartmentList > div {
+  .apartmentList > article {
     border-radius: 0;
     padding: 20px;
   }
@@ -544,7 +544,11 @@ header {
     aspect-ratio: 324 / 114;
     height: fit-content;
   }
-
+  .popularCardTitle,
+  .apartmentCardTitle,
+  .activityCardTitle {
+    font-size: 16px;
+  }
   /* *****Activity list***** */
 
   #activityLink {
