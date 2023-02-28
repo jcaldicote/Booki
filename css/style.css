@@ -522,11 +522,24 @@ header {
     padding: 20px;
   }
   .cityApartment {
+    flex-wrap: nowrap;
+    flex-direction: column;
     gap: 12px;
+  }
+
+  .cityApartment > div {
+    max-width: none;
+    flex-basis: 0;
+    min-width: 0;
   }
 
   .cityApartmentList {
     background-color: white;
+  }
+
+  .apartmentCard img {
+    aspect-ratio: 324 / 114;
+    height: fit-content;
   }
 
   /* *****Activity list***** */
@@ -542,7 +555,7 @@ header {
   }
 
   .activityCard img {
-    aspect-ratio: 335/124;
+    aspect-ratio: 334/124;
   }
 
   /* ***** footer *****  */
