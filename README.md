@@ -8,6 +8,7 @@ Projet 2 de la formation Developpeur Web OpenClassRooms
 ## Spécifications fonctionnelles et contraintes techniques
 
 ● Les usagers pourront **rechercher des hébergements dans la ville de leur choix**.
+
 ● Le champ de recherche est **un champ de saisie**, le texte doit donc pouvoir être
 édité par l’utilisateur.
 ● Il faut **englober ce champ dans un formulaire**. La partie Recherche ne doit pas
