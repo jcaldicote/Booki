@@ -355,14 +355,14 @@ header {
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
-  flex-basis: 22%;
+  flex-basis: 23%;
   transition-duration: 0.2s;
 }
 
 .activityCard img {
   border-radius: 20px 20px 0 0;
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 302/390;
   object-fit: cover;
 }
 
@@ -421,6 +421,14 @@ header {
 
   .popularCard img {
     height: auto;
+  }
+
+  .activityCard {
+    flex-basis: 21%;
+  }
+
+  .activityCard img {
+    aspect-ratio: 182/218;
   }
 }
 
