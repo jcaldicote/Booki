@@ -504,6 +504,8 @@ header {
   .filter.Three,
   .filter.Four {
     flex-basis: 47%;
+    min-width: 148px;
+    flex-grow: 1;
   }
   .filter span {
     font-size: 11px;
