@@ -11,16 +11,22 @@ Projet 2 de la formation Developpeur Web OpenClassRooms
 
 ● Le champ de recherche est **un champ de saisie**, le texte doit donc pouvoir être
 édité par l’utilisateur.
+
 ● Il faut **englober ce champ dans un formulaire**. La partie Recherche ne doit pas
 être fonctionnelle - il s’agit d’une première version pour valider l’interface.
+
 ● **Chaque carte** d’hébergement ou d’activité **devra être cliquable** dans son
 intégralité (pas uniquement le titre).
+
 ● Pour l’instant, les liens sont vides. On peut utiliser un attribut `href=”#”` pour
 simuler la présence d’un lien.
+
 ● Les hébergements peuvent être filtrés par thématique, comme le budget ou
 l’ambiance.
+
 ● Les **filtre**s doivent **changer d’apparence au survol**. Par contre, ils ne doivent pas
 être fonctionnels - il s’agit d’une première version pour valider l’interface..
+
 ● **Les textes “Hébergements”** et **“Activités”**, situés dans l’en-tête, **sont des liens**. Ils
 doivent mener respectivement vers la section “Hébergements à Marseille” et
 “Activités à Marseille”.
