@@ -485,6 +485,9 @@ header {
     overflow: auto;
   }
 
+  .searchMenu input::placeholder {
+    font-size: 14px;
+  }
   /* ***** filter ***** */
 
   .globalFilter,
