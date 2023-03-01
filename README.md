@@ -5,6 +5,10 @@ Projet 2 de la formation Developpeur Web OpenClassRooms
 **Version hébergée**: https://jcaldicote.github.io/Booki/  
 **Code source**: https://github.com/jcaldicote/Booki
 
+## Mission
+
+**Créez la page d'accueil d'une agence de voyage avec HTML & CSS**
+
 ## Spécifications fonctionnelles et contraintes techniques
 
 ● Les usagers pourront **rechercher des hébergements dans la ville de leur choix**.
@@ -36,6 +40,7 @@ doivent mener respectivement vers la section “Hébergements à Marseille” et
 -**Trois maquettes** ont été réalisées : **desktop, tablette et mobile**.
 
 -Nous avons convenu avec le designer UI d’**utiliser 992 px et 768 px** :
+
 ● >=992 px pour les écrans d’ordinateurs ;
 
 ● >=768 px pour les tablettes ;
