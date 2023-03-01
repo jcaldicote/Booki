@@ -34,37 +34,62 @@ doivent mener respectivement vers la section “Hébergements à Marseille” et
 ## Spécifications techniques
 
 -**Trois maquettes** ont été réalisées : **desktop, tablette et mobile**.
+
 -Nous avons convenu avec le designer UI d’**utiliser 992 px et 768 px** :
 ● >=992 px pour les écrans d’ordinateurs ;
+
 ● >=768 px pour les tablettes ;
+
 ● et tout ce qui est en dessous de 768 pour les téléphones portables.
+
 -Pour éviter d’étirer la page web sur la largeur de façon excessive, il va falloir **déterminer**
 **une largeur maximum de 1400 px**.
+
 -Il faut d’abord réaliser l’intégration pour les ordinateurs (autrement dit, en **desktop first**),
 puis les tablettes et enfin les téléphones. L’utilisation des **Media Queries nous permettra**
 **de réaliser l’intégration pour les différents supports**.
+
 -Les icônes proviennent de la bibliothèque **Font Awesome**.
+
 -Les **couleurs** de la charte sont **le bleu (#0065FC)**, une **version plus claire de ce bleu**
 (**#DEEBFF)** et le **gris pour le fond (#F2F2F2)**.
+
 -La **police** du site est **Raleway**. Nous pouvons passer par **Google Fonts** pour importer
 facilement cette police dans le code : **https://fonts.google.com/specimen/Raleway**.
+
 -Il est recommandé d'utiliser **Flexbox**.
+
 -Il est important d’**utiliser des balises sémantiques**, au minimum “header”, “nav”,
 “h1-h2-h3”, “main”, “section”, “article” et “footer”.
+
 ● Afin d’harmoniser les outils avec toute l’équipe, il faudra utiliser l’**IDE Visual Studio**
 **Code** pour le développement du site.
+
 ● Le **code** doit être **valide aux validateurs W3C** HTML et CSS.
+
 ● Le code HTML ne doit pas contenir de propriété CSS.
+
 ● Lors du passage du desktop au mobile et à la tablette, **ne pas dupliquer le code**
 HTML (exception faite dans le formulaire avec le mot “Rechercher” et l’icône de la
 loupe).
+
 ● **Privilégier l’utilisation des classes CSS** pour cibler un élément, plutôt que d’utiliser
 le nom de l’élément lui-même.
+
 ● **Ne pas dupliquer des classes CSS inutilement**. Exemple : si 4 éléments sont
 identiques du point de vue de la mise en forme, alors utiliser une seule et même
 classe CSS, et non pas 4.
+
 -La **maquette** doit être **compatible avec les dernières versions de Google Chrome et de**
 **Mozilla Firefox**. Il faudra tester la page web sur ces deux navigateurs.
+
 -Aucun framework CSS (type BootStrap ou Tailwind CSS) ou préprocesseur CSS (type Sass
 ou Less) ne doit être utilisé.
+
 -Aucun autre langage ne doit être utilisé (comme JavaScript, par exemple).
+
+**Venez visiter mon site** https://jcaldicote.github.io/Booki/
+
+## Auteur
+
+**Caldicote Joseph**
